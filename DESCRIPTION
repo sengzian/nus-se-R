@@ -1,0 +1,60 @@
+Package: nusser
+Type: Package
+Title: Neighbourhood UnderSampling Stacked Ensemble (NUS-SE)
+Version: 1.1
+Date: 2020-09-29
+Authors: marcussz
+Maintainer: marcussz <sengzian@gmail.com>
+Description: Neighbourhood UnderSampling Stacked Ensemble (NUS-SE)
+License: GPL-3
+URL: -
+Depends:
+    R (>= 2.14.0),
+    nnls
+Imports:
+    cvAUC
+Suggests:
+    arm,
+    bartMachine,
+    biglasso,
+    bigmemory,
+    caret,
+    class,
+    devtools,
+    e1071,
+    earth,
+    extraTrees,
+    gam (>= 1.15),
+    gbm,
+    genefilter,
+    ggplot2,
+    glmnet,
+    ipred,
+    KernelKnn,
+    kernlab,
+    knitr,
+    lattice,
+    LogicReg,
+    MASS,
+    mlbench,
+    nloptr,
+    nnet,
+    party,
+    polspline,
+    prettydoc,
+    quadprog,
+    randomForest,
+    ranger,
+    RhpcBLASctl,
+    ROCR,
+    rmarkdown,
+    rpart,
+    SIS,
+    speedglm,
+    spls,
+    sva,
+    testthat,
+    xgboost (>= 0.6)
+LazyLoad: yes
+VignetteBuilder: knitr, rmarkdown
+RoxygenNote: 7.1.0
