@@ -1,0 +1,28 @@
+
+useDynLib(nusser, .registration=TRUE)
+
+
+import(nnls)
+exportPattern("^[^\\.]")
+
+
+importFrom(stats, coef)
+importFrom(stats, predict)
+importFrom(graphics, plot)
+
+importFrom("stats", "as.formula", "binomial", "cor.test", "dlogis", "formula", "gaussian", "glm", "lm", "loess", "loess.control", "model.matrix", "optim", "plogis", "pnorm", "predict.lm", "qnorm", "reorder", "sd", "step", "var", "weighted.mean")
+importFrom("utils", "capture.output", "RShowDoc", "packageVersion")
+
+S3method(predict, nStacking)
+
+S3method(predict, SL.kernelKnn_cat)
+S3method(predict, SL.nnet_cat)
+S3method(predict, SL.rf_oob)
+S3method(predict, SL.xgb_oob)
+S3method(predict, SL.J48)
+S3method(predict, SL.nb)
+
+
+export(
+	distances
+)
