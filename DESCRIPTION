@@ -1,7 +1,7 @@
 Package: nusser
 Type: Package
 Title: Neighbourhood UnderSampling Stacked Ensemble (NUS-SE)
-Version: 1.1
+Version: 1.2
 Date: 2020-09-29
 Authors: marcussz
 Maintainer: marcussz <sengzian@gmail.com>
